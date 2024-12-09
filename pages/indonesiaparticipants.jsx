@@ -25,7 +25,7 @@ export default function Internationalparticipants() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbz_nd9N5Rm5-7lRHXd40vhT55_1iWpFN3mbH4q2RBExlopbDxBofq2V7W3WuBZ7h9u4vQ/exec";
+      "https://script.google.com/macros/s/AKfycbwf_aJkSIOTNN5ZNOir9MjVOgd2MVaJBmBvtfAKKtRZxdDUpfEZBaPQ-5tXkF8eBEXcCA/exec";
 
     const form = document.forms["regist-form"];
     var buttonCounter = 0;
@@ -69,7 +69,7 @@ export default function Internationalparticipants() {
             <br />
             <br />
             <h4>
-              HALLO PESERTA NYMO 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA NYBO 2025, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -289,17 +289,8 @@ export default function Internationalparticipants() {
                     required
                   >
                     <option value="">--Pilih Jenjang Pendidikan Anda--</option>
-                    <option value="Sekolah Dasar">
-                      Sekolah Dasar
-                    </option>
-                    <option value="Sekolah Menengah Pertama">
-                      Sekolah Menengah Pertama
-                    </option>
                     <option value="Sekolah Menengah Atas">
                       Sekolah Menengah Atas
-                    </option>
-                    <option value="Universitas">
-                      Universitas
                     </option>
                   </select>
                 </div>
@@ -408,7 +399,7 @@ export default function Internationalparticipants() {
                 </div>
                 <div className="input-box">
                   <label for="SUMBER_INFORMASI" className="form-label">
-                    Sumber Informasi Kompetisi NYMO 2025
+                    Sumber Informasi Kompetisi NYBO 2025
                   </label>
                   <select
                     type="text"
@@ -420,16 +411,16 @@ export default function Internationalparticipants() {
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="NYMO Instagram">NYMO Instagram</option>
+                    <option value="NYBO Instagram">NYBO Instagram</option>
                     <option value="Pembimbing/Sekolah">
                       Pembimbing/Sekolah
                     </option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Website">IYSA Website</option>
-                    <option value="NYMO Website">NYMO Website</option>
+                    <option value="NYBO Website">NYBO Website</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="NYMO Email">NYMO Email</option>
+                    <option value="NYBO Email">NYBO Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
                     <option value="Lainnya">Lainnya</option>
                   </select>
